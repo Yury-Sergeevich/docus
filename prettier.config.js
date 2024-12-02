@@ -1,10 +1,8 @@
-module.exports = {
-  semi: true,
-  singleQuote: true,
-  trailingComma: 'es5',
-  bracketSpacing: true,
-  vueIndentScriptAndStyle: true,
-  arrowParens: 'always',
-  printWidth: 80,
-  tabWidth: 2,
-};
+export const semi = true;
+export const singleQuote = true;
+export const trailingComma = 'es5';
+export const bracketSpacing = true;
+export const vueIndentScriptAndStyle = true;
+export const arrowParens = 'always';
+export const printWidth = 80;
+export const tabWidth = 2;

@@ -2,13 +2,14 @@
   "name": "docus-starter",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
-    "lint": "eslint --c .js,.vue,.md .",
-    "lint:fix": "eslint --fix --c .js,.vue,.md .",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix -exp .js,.vue,.md .",
     "format": "prettier --write ."
   },
   "devDependencies": {
